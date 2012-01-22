@@ -6,7 +6,7 @@ import sys
 
 # Convierte un string en otro que servira para obtener una url valida
 def city (ciudad):
-        return ciudad.lower().replace(" - ", " ").replace(" / ", " ").replace(" ", "+")
+        return ciudad.lower().replace(" - ", " ").replace(" / ", " ").replace("-", "+").replace(" ", "+")
 
 # Obtiene el codigo que acompana a la ciudad en la url
 def getCode(ciudad):
