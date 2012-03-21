@@ -1,4 +1,11 @@
 Repositorio para mis scripts de Python
+--------------------------------------
 
-· tiempo.py
-	-> Script para obtener el resumen del tiempo en ciudades españolas entre fechas
+* tiempo.py
+	-> Script para obtener el resumen del tiempo en ciudades españolas entre
+			fechas.
+
+* perfil_twitter.py
+	-> Script para obtener un mini-resumen del usuario de twitter que se
+			introduce (creado para añadir en mTwitterCard pero también depende
+			del limite de la API de twitter).
